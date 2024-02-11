@@ -1,0 +1,35 @@
+function f2 pa1 pi2 pi3
+def
+var vi1
+var vi2
+var vi3
+var vi4
+vet va5 size ci10
+vet va6 size ci100
+vet va7 size ci1000
+vet va8 size ci10000
+reg vr9
+reg vr10
+reg vr11
+reg vr12
+enddef
+if vi1 eq vi3
+return ci100
+endif
+if vi3 ne vr9
+return ci1000
+endif
+if vr9 lt vi3
+return ci10000
+endif
+if vi1 le pi3
+return ci10
+endif
+if pi3 gt pi2
+return ci100
+endif
+if vr9 ge pi2
+return ci1000
+endif
+return ci0
+end
